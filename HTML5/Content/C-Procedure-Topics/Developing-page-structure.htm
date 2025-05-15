@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="Text Accessibility" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Developing page structure for text accessibility</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Branding/Branding.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="title tab bar" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Picture of Eyevin the eye and the text &quot;Accessibility with Eyevin&quot;"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1 class="Print">Developing page structure for text accessibility</h1>
+                                        <p>When creating any webpage, it’s important to properly organize your content and code to optimize readability and adhere to standards of accessibility. This is important for screen readers and those with visual and cognitive disabilities alike. Poor formatting, like large blocks of text or unnecessary text decoration, can make it difficult for users to process information on a webpage. In many cases, it leads users to abandon reading altogether. So, how do you convince users to keep reading? It all depends on a good visual hierarchy and proper heading use.</p>
+                                        <p>When creating any webpage, it’s important to properly organize your content and code to optimize readability and adhere to standards of accessibility. This is important for screen readers and those with visual and cognitive disabilities alike. Poor formatting, like large blocks of text or unnecessary text decoration, can make it difficult for users to process information on a webpage. In many cases, it leads users to abandon reading altogether. So, how do you convince users to keep reading? It all depends on a good visual hierarchy and proper heading use.</p>
+                                        <h2>What is visual hierarchy?</h2>
+                                        <p>Visual hierarchy refers to changes in text formatting and page structure to emphasize important information and indicate transitions between topics. Not only does visual hierarchy add to the appeal of a webpage, but it makes it far easier for users to read and understand. While some tips for developing a visual hierarchy may be merely subjective, others are crucial for accessibility.</p>
+                                        <p style="text-align: center;">
+                                            <img src="../Resources/Images/Eyevin Comics-03_489x338.png" alt="Eyevin comic where he is overwhlemed by a block of overwhelming text. " style="width: 489;height: 338;" />
+                                        </p>
+                                        <p>Chunking is a method developed by UX designers that involves breaking up large paragraphs to reduce cognitive load. By sticking to 1–3 sentence paragraphs, users are granted more breaks to process information and can skim more easily. However, adding additional spacing and indents purely for appearance can disrupt those with screen readers and other kinds of assistive technology, so it’s important to add white space for readability rather than aesthetics.</p>
+                                        <p>Despite this, there are other ways for users to incorporate white space to provide better readability to their users. Keeping the text right aligned without any justification ensures formatting is not disrupted if the text is resized and is more pleasing to read. Using lists over commas doesn’t just assist in breaking up text but actively reinforces accessibility standards defined by the Web Content Accessibility Guidelines (WCAG). Although, the best way to build a website with visual hierarchy and accessible formatting is through proper heading usage.</p>
+                                        <h2>Using headings for text accessibility</h2>
+                                        <p>Within webpages, headings have dual functionality as a tool for screen readers and a way to categorize information. Heading tags add structure to a page and sort content into more concentrated areas of focus. For instance, this webpage may be about “developing page structure for text accessibility”, but the content is divided into subjects relating to this topic, such as visual hierarchy and headings.</p>
+                                        <p>When structuring a page with headings, you must closely adhere to the WCAG guidelines to guarantee your page is accessible to screen readers. Headings are a way for those who use this assistive technology to audibly scan the page, much like skimming. If the headings are out of order, or are only indicated through visual changes in text formatting, these pages become more dense for screen readers and harder to navigate as a result.</p>
+                                        <p style="text-align: center;">
+                                            <img src="../Resources/Images/H1-H6-headings_531x400.png" alt="Heading hierarchy chart by Seobility - License: CC BY-SA 4.0." style="width: 531;height: 400;" />
+                                        </p>
+                                        <p style="text-align: center;">Heading hierarchy chart by Seobility - License: CC BY-SA 4.0.</p>
+                                        <p>Therefore, headings must have a rational order. HTML has six different heading tags that are available to use (h1, h2, h3, etc.). These tags must be arranged chronologically without missing information, meaning your webpage cannot start with a h2 tag then skip to a h4 tag immediately after. The heading of your page must always be a h1 tag, the next most relevant topic must be a h2 tag, subheadings within an h2 tag must be an h3 tag, and so on. If done properly, your heading tags will be neatly nested within one another, almost reminiscent of a Russian doll.</p>
+                                        <p>While these are standard practices outlined by WCAG, you can still style headings to have a more aesthetic appearance without impeding readability. As you may notice, the heading tags have different appearances that may sway you to skip tag levels to achieve a more desirable look. With CSS, a language that acts as a stylesheet for HTML, you can change the appearance of headers to maintain consistency while working with screen readers. While it is important to verify changes like font size, color, or other text decorations remain accessible, it’s still possible to create a page that has visual appeal without sacrificing text accessibility.</p>
+                                        <h2>Citations</h2>
+                                        <p>Cooper, Michael. “Web Content Accessibility Guidelines (WCAG) 2.1.” Edited by Andrew Kirkpatrick et al., W3C, World Wide Web Consortium, 28 Feb. 2017, www.w3.org/TR/WCAG21/.</p>
+                                        <p>Lewis, Whitney. “A Beginner’s Guide to Accessible Text.” Pope Tech Blog, 27 Dec. 2024, blog.pope.tech/2023/12/07/accessible-text/.</p>
+                                        <p>“Text Formatting for Accessibility.” SCC Inside, Sacramento City College, inside.scc.losrios.edu/collegewide/public-information-office/digital-accessibility/text-formatting. Accessed 11 May 2025.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

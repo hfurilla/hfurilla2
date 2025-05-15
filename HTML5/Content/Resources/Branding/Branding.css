@@ -4,16 +4,16 @@
 
 :root
 {
-	--Primary: #076685;
-	--Secondary: #CDE0E7;
-	--Dark: #45494C;
-	--Darkest: #000000;
-	--Light: #DADEE1;
-	--Lightest: #FFFFFF;
-	--Medium: #A4AAAE;
-	--HeroImage: url('../Images/Hero-Image.png');
 	--FontFamily: Arial, Avenir, Myriad;
-	--LogoImage: url('../Images/Logo.png');
-	--LogoImagePrint: url('../Images/Logo.svg');
+	--Primary: #7259A4;
+	--Lightest: #f7f5fa;
+	--Secondary: #f0eEF6;
+	--Darkest: #252329;
+	--Dark: #333136;
+	--Light: #71628c15;
+	--Medium: #71628cbb;
+	--LogoImage: url('../Images/Eyevin-logo-01.png');
+	--LogoImagePrint: url('../Images/Eyevin-logo-01.png');
+	--HeroImage: url('../Images/Hero-image3-01.png');
 }
 
